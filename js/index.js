@@ -24,6 +24,8 @@ window.onload = function() {
 
 function processFile(elm) {
     hideElements("error", "success");
+    console.log(typeof elm);
+    console.log(elm);
 
     const bw_old = document.getElementById("upload.width").value;
     const bh_old = document.getElementById("upload.height").value;
